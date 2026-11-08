@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ipon Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-screen="auth">
+  <section class="auth">
+    <div class="auth__form"></div>
+    <div class="auth__promo">
+      <div class="promo-card">
+        <h2>Every peso you save brings your goal closer.</h2>
+        <p>Set a goal, log your ipon, and see exactly how much to save each week.</p>
+        <span class="promo-badge">₱</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="app">
+    <aside class="sidebar"></aside>
+    <main class="main">
+      <header class="topbar"></header>
+      <section class="summary card"></section>
+      <div class="row">
+        <section class="chart card"></section>
+        <section class="goal-form card"></section>
+      </div>
+      <div class="row">
+        <section class="deposit-form card"></section>
+        <section class="deposit-list card"></section>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="js/controller.js"></script>
+</body>
+</html>
